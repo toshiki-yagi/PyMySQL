@@ -24,6 +24,8 @@ class Charset:
             return "koi8_r"
         if name == "koi8u":
             return "koi8_u"
+        if name == "eucjpms":
+            return "euc-jis-2004"
         return name
 
     @property
